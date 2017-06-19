@@ -8,6 +8,9 @@ namespace TreehouseComicBookGallery.Controllers
 {
     public class ComicBooksController : Controller
     {
-
+        public string Detail()
+        {
+            return "ComicBooks Controller Detail";
+        }
     }
 }
